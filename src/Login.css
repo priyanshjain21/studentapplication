@@ -1,0 +1,118 @@
+.main-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0 0 5px 1px #e7e7e7;
+  background-color: #fff;
+  width: 400px;
+  height: 450px;
+}
+
+.tab-content{
+  padding: 24px;
+}
+
+.page-header{
+  width: 100%;
+  line-height: normal;
+  display: block;
+  font-size: 27px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -.4px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.input-field-container{
+  margin-bottom: 16px!important;
+  width: 100%;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 1.3em !important;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.input-field-password-container{
+  margin-bottom: 16px!important;
+  width: 100%;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 1.3em !important;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.input-field-wrapper{
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.input-control{
+  height: 36px;
+  border: 2px solid;
+  border-color: #e0e4e6;
+  border-radius: 3px;
+  display: block;
+  background-color: #fff;
+  padding: 12px;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.button{
+  width: 100%;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -.2px;
+  border: none;
+  margin-bottom: 24px;
+  margin-top: 14px;
+}
+
+.separator{
+  width: 100%;
+  display: flex;
+}
+
+.separator hr{
+  flex: 1;
+  margin: 10px;
+}
+
+.center-content{
+  text-align: center;
+}
+
+.linkBtn {
+  color: #007dc6;
+  border: 1px solid #007dc6;
+  border-radius: 3px;
+  transition: color .4s,background-color .4s;
+  padding: 13px 0;
+  font-size: 16px;
+  margin-top: 15px;
+  width: 100%;
+  line-height: normal;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
