@@ -2,6 +2,9 @@ import './Login.css';
 import Register from "./Register";
 
 function Login() {
+  const loginClickHandler=()=>{
+
+  }
   return (
     <div className="main-container">
       <div className="content-container">
@@ -28,7 +31,7 @@ function Login() {
                   </span>
                 </span>
               </div>
-              <button className='button'>
+              <button className='button' onClick={loginClickHandler}>
                 <span> LOG IN </span>
               </button>
             </form>
